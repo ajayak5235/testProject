@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Student Management</h1>
+    <div class="search-container">
+       <label>Select Date</label>
+       <input type="date" id="date-input">
+       <button type="search-input" id="date-search">Search</button>
+       <button type="button" id="fetch-attendance-report">Fetch Attendance Report</button>
+       <br><br>
+       <div>
+          <label for="ajay">ajay</label>
+          <input type="radio" name="ajay" value="present" id="ajay-present">
+          <label for="ajay-present">present</label>
+          <input type="radio" name="ajay" value="absent" id="ajay-absent">
+          <label for="ajay-absent">absent</label>
+          <br><br>
+          <label for="rahul">rahul</label>
+          <input type="radio" name="rahul" value="present" id="rahul-present">
+          <label for="rahul-present">present</label>
+          <input type="radio" name="rahul" value="absent" id="rahul-absent">
+          <label for="rahul-absent">absent</label>
+          <br><br>
+          <label for="ram">ram</label>
+          <input type="radio" name="ram" value="present" id="ram-present">
+          <label for="ram-present">present</label>
+          <input type="radio" name="ram" value="absent" id="ram-absent">
+          <label for="ram-absent">absent</label>
+          <br><br>
+          <label for="singh">singh</label>
+          <input type="radio" name="singh" value="present" id="singh-present">
+          <label for="singh-present">present</label>
+          <input type="radio" name="singh" value="absent" id="singh-absent">
+          <label for="singh-absent">absent</label>
+          <br><br>
+          <label for="shivani">shivani</label>
+          <input type="radio" name="shivani" value="present" id="shivani-present">
+          <label for="shivani-present">present</label>
+          <input type="radio" name="shivani" value="absent" id="shivani-absent">
+          <label for="shivani-absent">absent</label>
+       </div>
+         <br><br>
+         <button type="submit" id="mark-attendance">Mark Attendance</button>
+    </div>
+
+    <div id="attendance-list">
+        <!-- Attendance details will be displayed here -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="index2.js"></script>
+</body>
+</html>

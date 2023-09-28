@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"], input[type="date"], button {
+    margin: 5px;
+}
+
+#attendance-list {
+    margin: 20px;
+    text-align: center;
+}
+
+.circle-tick {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
